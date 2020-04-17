@@ -1,0 +1,34 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(255, 180, 249);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.intro_pictures {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.top_pics {
+    width: 20%;
+}
