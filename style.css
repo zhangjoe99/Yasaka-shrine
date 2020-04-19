@@ -1,28 +1,93 @@
-
+body {
+    background-color: rgb(38, 0, 56);
+}
+.empty {
+    padding: 2%;
+}
 .header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: -3%;
     width: 100%;
-    background-color: rgb(255, 180, 249);
+    background-color: rgb(102, 47, 97);
 }
 h1 {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: floralwhite;
 }
 h2 {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: floralwhite;
 }
 h3 {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: floralwhite;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
+.text {
+    padding: 20px;
+    padding-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.history {
+    background-color: rgb(255, 180, 249);
+    border-radius: 30px;
+}
+.architecture {
+    background-color: rgb(255, 180, 249);
+    border-radius: 30px;
+}
+.kami {
+    background-color: rgb(255, 180, 249);
+    border-radius: 30px;
+}
+.festival {
+    background-color: rgb(255, 180, 249);
+    border-radius: 30px;
+}
+.work_cited {
+    background-color: rgb(255, 180, 249);
+    border-radius: 30px;
+}
+.bibliography {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.text_container {
+    width: 50%;
+}
 
 .intro_pictures {
     display: flex;
@@ -30,5 +95,24 @@ h3 {
     width: 100%;
 }
 .top_pics {
+    padding-top: 3%;
+    width: 40%;
+}
+.architecture_pics {
+    padding: 3%;
     width: 20%;
+}
+.festival_pics {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.pic {
+    width: 100%;
+}
+.pic1 {
+    width: 20%;
+}
+.pic2 {
+    width: 40%;
 }
